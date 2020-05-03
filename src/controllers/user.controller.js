@@ -47,7 +47,7 @@ exports.loginUser = async(req, res) => {
 
 };
 
-// ==> Método para editar um user
+// ==> Método para editar um user específico
 
 exports.updateUser = async(req, res) => {
     const { username, userpassword, passwordhint, status, perfil, userid } = req.body;
